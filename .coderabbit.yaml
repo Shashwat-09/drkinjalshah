@@ -1,0 +1,24 @@
+# CodeRabbit Configuration File
+# Documentation: https://coderabbit.ai/docs/configure-coderabbit
+
+language: "en-US"
+
+reviews:
+  # Review profile: "standard", "assertive", or "chill"
+  profile: "standard"
+  
+  # Request high-level summary of changes
+  request_summary: true
+  
+  # Request walking through the changes sequence
+  request_walkthrough: true
+  
+  # Auto-review triggers
+  auto_review:
+    enabled: true
+    drafts: false
+    base_branches: ["main", "master", "dev", "develop"]
+
+chat:
+  # Enable chat with CodeRabbit bot
+  enabled: true
