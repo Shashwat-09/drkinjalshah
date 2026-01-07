@@ -1,7 +1,7 @@
 import sqlite3 from 'sqlite3';
 import path from 'path';
 
-const dbPath = path.join(process.cwd(), 'psychologist.db');
+const dbPath = path.join(process.cwd(), 'drkinjalshah.db');
 
 // Enable verbose mode for debugging
 const sqlite = sqlite3.verbose();

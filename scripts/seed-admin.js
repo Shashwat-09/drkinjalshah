@@ -9,7 +9,7 @@ function hashPassword(password) {
     return `${salt}:${hash}`;
 }
 
-const dbPath = path.join(process.cwd(), 'psychologist.db');
+const dbPath = path.join(process.cwd(), 'drkinjalshah.db');
 const db = new sqlite3.Database(dbPath);
 
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';

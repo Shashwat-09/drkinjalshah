@@ -29,7 +29,7 @@ function hashEmail(email) {
     return crypto.createHash('sha256').update(email).digest('hex');
 }
 
-const dbPath = path.join(process.cwd(), 'psychologist.db');
+const dbPath = path.join(process.cwd(), 'drkinjalshah.db');
 const db = new sqlite3.Database(dbPath);
 
 db.serialize(() => {
